@@ -26,9 +26,9 @@ cd problem1
 ```
 
 ### Step 1: Extract raw text from PDFs
-
+(I have uploaded the corpus.txt itself)
 ```bash
-python extract_text.py (i have uploaded the corpus.txt itself)
+python extract_text.py 
 ```
 
 Input:
