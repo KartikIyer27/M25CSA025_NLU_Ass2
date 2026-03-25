@@ -151,17 +151,35 @@ Outputs in `plots/`:
 - `epochs_comparison.png`
 - `novelty_diversity_comparison.png`
 
-## 4) Important Missing/Changed Items (Current Workspace)
+## 4) Important Missing/Changed Items (GitHub Repository)
 
-Current status:
+**Note:** Your GitHub repo is a lightweight submission version with source code and key outputs, but missing some data folders and intermediate artifacts.
 
-- `problem1/models/` is present and contains both CBOW and Skip-gram model files.
-- `problem2/TrainingNames.txt` is present.
-- Problem 2 generated files are present:
-	- `rnn.txt`, `blstm.txt`, `attention.txt`
-	- `vanilla_rnn_model.pth`, `rnn_attention_model.pth`, `blstm_names_model.pth`
+**Problem 1 - Missing on GitHub:**
+- `data/` folder (PDF files: file1.pdf - file6.pdf)
+	- **Required to run the pipeline from scratch**
+	- Add these back if you want evaluators to regenerate the corpus
+- `cleaned data/` folder (only `clean_corpus.txt` is uploaded)
+	- Missing: `c_corpus.txt`, `clean_sentences.txt`, `tokens.txt`
+	- Regenerate by running: `clean_corpus.py` → `tokenize_text.py`
+- `models/` folder (CBOW & Skip-gram artifacts)
+	- Missing: `cbow.model*`, `skipgram.model*`, `*.npy`, `*.json`
+	- Regenerate by running: `train_word2vec.py`
+- `plot/` folder (visualizations)
+	- Missing: `embedding_pca_cbow.png`, `embedding_pca_skipgram.png`, `wordcloud.png`
+	- Regenerate by running: `visualize_embedding.py`, `wordCloud_plot.py`
 
-No critical required files are currently missing for running the documented pipeline in Problem 1 and Problem 2.
+**Problem 2 - Missing on GitHub:**
+- `plots/` folder (comparison charts)
+	- Missing: comparison PNG files
+	- Regenerate by running: `plots.py` (requires manual MANUAL_METRICS in code)
+
+**What IS present on GitHub:**
+- Problem 1: All 11 Python scripts + `clean_corpus.txt`
+- Problem 2: All 3 training scripts, evaluation script, all generated `.txt` name files, loss JSON files, loss curve PNGs, all `.pth` checkpoints
+
+**To Run Locally:**
+If you cloned from GitHub, you'll need to add the missing data folders or run the generation scripts sequentially (as documented in Section 2 & 3 above).
 
 ## 5) Suggested Submission Pack
 
