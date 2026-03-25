@@ -153,7 +153,6 @@ Outputs in `plots/`:
 
 ## 4) Important Missing/Changed Items (GitHub Repository)
 
-**Note:** Your GitHub repo is a lightweight submission version with source code and key outputs, but missing some data folders and intermediate artifacts.
 
 **Problem 1 - Missing on GitHub:**
 - `data/` folder (PDF files: file1.pdf - file6.pdf)
