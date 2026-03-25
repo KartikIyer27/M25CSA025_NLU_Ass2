@@ -28,11 +28,11 @@ cd problem1
 ### Step 1: Extract raw text from PDFs
 
 ```bash
-python extract_text.py
+python extract_text.py (i have uploaded the corpus.txt itself)
 ```
 
 Input:
-- `data/file1.pdf` ... `data/file6.pdf`
+- `data/file1.pdf` ... `data/file6.pdf` 
 
 Output:
 - `data/raw_corpus.txt`
