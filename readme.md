@@ -151,4 +151,4 @@ Outputs in `plots/`:
 - `epochs_comparison.png`
 - `novelty_diversity_comparison.png`
 
- names, `*_loss.json`, `*_loss_curve.png`, `plots/`, and optional `*.pth`
+ 
